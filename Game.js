@@ -64,7 +64,7 @@ play(){
 
         }
     }
-    if (keyIsDown("w") && player.index!== null){
+    if (keyIsDown("UP_ARROW") && player.index!== null){
        player.distance+=10;
        player.update();
     }
